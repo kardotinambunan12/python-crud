@@ -1,7 +1,10 @@
 # python-crud
 
-pip install PyMySQL
+# pip install PyMySQL
 kemudian  install flask dengan cara 
 
-pip install flask
-python app.py
+# pip install flask
+
+
+kemudian jalankan aplikasi dengan cara 
+# python app.py
