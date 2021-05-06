@@ -5,7 +5,8 @@ import pymysql.cursors, os
 application = Flask(__name__)
 
 conn = cursor = None
-#fungsi koneksi database
+#fungsi membuka database
+
 def openDb():
    global conn, cursor
    conn = pymysql.connect("localhost","root","","db_penjualan" )
